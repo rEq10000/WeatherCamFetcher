@@ -15,7 +15,7 @@ while True:
     date = datetime.datetime.now().strftime('%Y-%m-%d')
 
     timerr = (date + " " + times)
-    full_name = (camname + "IMG_" + timerr + ".jpg")
+    full_name = (camname + "_" + timerr + ".jpg")
 
     urllib.request.urlretrieve(url, full_name)
 
