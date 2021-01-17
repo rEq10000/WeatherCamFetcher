@@ -13,7 +13,7 @@ while True:
     date = datetime.datetime.now().strftime('%Y-%m-%d')
 
     timerr = (date + " " + times)
-    full_name = ("NameHereIMG_" + timerr + ".jpg")
+    full_name = ("NameHere_" + timerr + ".jpg")
 
     urllib.request.urlretrieve(url, full_name)
 
