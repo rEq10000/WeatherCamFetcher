@@ -31,4 +31,4 @@ while True:
     print("Images downloaded this session: " + str(curvalue))
     print("")
 
-    time.sleep(10)
+    time.sleep(900)
