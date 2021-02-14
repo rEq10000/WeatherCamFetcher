@@ -13,18 +13,18 @@ os.system("title " + camname + "CamFetcher")
 
 while True:
 
-    url = "urlhere"
+	url = "urlhere"
 
-    times = datetime.datetime.now().strftime('%H.%M.%S')
-    date = datetime.datetime.now().strftime('%Y-%m-%d')
+	times = datetime.datetime.now().strftime('%H.%M.%S')
+	date = datetime.datetime.now().strftime('%Y-%m-%d')
 
-    timerr = (date + " " + times)
-    full_name = (camname + "_" + timerr + ".jpg")
+	timerr = (date + " " + times)
+	full_name = (camname + "_" + timerr + ".jpg")
 
-    urllib.request.urlretrieve(url, full_name)
+	urllib.request.urlretrieve(url, full_name)
 
-    print("Image downloaded! Image: " + full_name)
-    print("Next picture in 15 minutes...")
-    print("")
+	print("Image downloaded! Image: " + full_name)
+	print("Next picture in 15 minutes...")
+	print("")
 
-    time.sleep(900)
+	time.sleep(900)
