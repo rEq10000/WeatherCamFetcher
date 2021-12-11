@@ -24,8 +24,7 @@ while True:
 	curvalue = 1 + curvalue
 
 	print("Image downloaded! Image: " + full_name)
-	print("Next picture in 15 minutes...")
 	print("Images downloaded this session: " + str(curvalue))
 	print("")
 
-	time.sleep(900)
+	time.sleep()
